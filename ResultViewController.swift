@@ -18,9 +18,8 @@ class ResultViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         let result = x
-        label.text = result
+        label.text = ("こんにちは\(result)さん")
         // Do any additional setup after loading the view.
-        print("結果は\(result) です")
      // Pass the selected object to the new view controller.
     }
 

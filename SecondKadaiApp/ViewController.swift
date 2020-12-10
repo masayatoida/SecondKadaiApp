@@ -15,7 +15,9 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    
     @IBOutlet weak var textField: UITextField!
+    
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // segueから遷移先のResultViewControllerを取得する
@@ -24,6 +26,7 @@ class ViewController: UIViewController {
         resultViewController.x = textField.text!
     }
     
+
     @IBAction func unwind(_ segue: UIStoryboardSegue) {
     }
 }
